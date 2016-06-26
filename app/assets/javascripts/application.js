@@ -14,3 +14,22 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+//alert("Hello");
+
+$(document).ready(function() {
+  $('.thumbnails').click(function(){
+    $('.thumbnails').hide();
+    return false;
+  });
+  $('.thumbnails2').click(function(){
+      $('.thumbnails').show();
+     
+  });
+});
+
+ $.get('test2.php', function(data) {
+  alert(data);
+   });
+ 
+
