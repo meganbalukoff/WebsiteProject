@@ -5,6 +5,8 @@
 <br>Click on the buttons below to learn more about this website, how to create a painting, or
 to view some of the artist's artwork.</p>
 <%= image_tag("flower2.png", size:"400x400")%>
+
+
 &nbsp;
 </center>
 
@@ -15,12 +17,20 @@ border-style: double;
 border-width: 10px;
 border-color: black;
 }
+button{
+  
+background-color: olivedrab;
+color: white;
+font-size: 16px;
+
+}
 
 </style>
 
 <center>
 <!--<button onclick="alert('Hello World!')">About Page</button>-->
-<button>About Page</button>
-<button>How To Page</button>
-<button>Gallery Page</button>
+<button onclick="location.href='https://cosc630-meganbalukoff.c9users.io/static_pages/about'">About Page</button>
+<button onclick="location.href='https://cosc630-meganbalukoff.c9users.io/static_pages/gallery'">Gallery Page</button>
+<button onclick="location.href='https://cosc630-meganbalukoff.c9users.io/static_pages/howTo'">How To Page</button>
 </center>
+
