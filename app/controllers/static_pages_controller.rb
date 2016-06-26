@@ -10,6 +10,6 @@ class StaticPagesController < ApplicationController
   
   def howTo
   end
- 
+  
 
 end
