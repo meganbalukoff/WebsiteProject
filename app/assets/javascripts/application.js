@@ -28,8 +28,5 @@ $(document).ready(function() {
   });
 });
 
- $.get('test2.php', function(data) {
-  alert(data);
-   });
  
 
